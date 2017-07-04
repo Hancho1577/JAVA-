@@ -1,0 +1,63 @@
+package hanch;
+
+import java.util.Scanner;
+
+public class Hancho_program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("감자 감자");
+		System.out.printf("호로로롤ㄹ");
+		System.out.printf("줄x");
+		System.out.printf("\n엔텨 효과");
+		System.out.println(5 % 2);
+		System.out.println("가"+"가");
+		System.out.println(5 + " + " + 6 + " = " + (5+6));
+		System.out.println(123); //int
+		System.out.println(123.123); //double
+		System.out.println('감'); //char
+		System.out.println("가나다가123이것은 String!"); //string
+		System.out.println(123+124);
+		System.out.println("위에것은" + "int" + "+" + "int"+"입니다");
+		System.out.println((double)(3 / 2));
+		System.out.println("--------------------");
+		System.out.println("loading...");
+		
+		int score=0;
+		int fight=2;
+		int bigfight=5;
+		int hate=-1;
+		int enqo=2;
+		
+		System.out.println("FINISH");
+		System.out.println("점수:0");
+		
+		score += fight;
+		System.out.println("몬스터를 죽였어요!");
+		System.out.println("현재 점수:" + score);
+		score += bigfight;
+		System.out.println("보스 처치" +  "점수=" + score);
+		score += hate;
+		System.out.println("장애물에 걸림! 점수" + hate);
+		System.out.println("최종점수=" + score);
+		System.out.println("점수 2배 핫타임 적용!");
+		score *=enqo;
+		System.out.println("현제 점수:" + score);
+		System.out.println("---------------------");
+		System.out.println("크랙커5.6V");
+		Scanner scanner = new Scanner(System.in);
+		
+		
+		
+		System.out.println("원하는 값을 입력하시오");
+		int hack = scanner.nextInt();
+		
+		
+		
+		scanner.close();
+		score =0;
+		score += hack;
+		System.out.println("최종점수:" + score);
+	}
+
+}
