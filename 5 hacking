@@ -1,0 +1,27 @@
+package hanch;
+
+import java.util.Scanner;
+
+public class again {
+
+	public static void main(String[] args) {
+		// 반복문 
+    // 제작:유정욱
+		
+		Scanner scanner = new Scanner(System.in);
+		int f = 0;
+		System.out.println("원하는 수를입력해 보세요!");
+		System.out.println("0부터 모두 찾아볼게요!");
+		int password = scanner.nextInt();
+		
+		while (f < password){  //f 가 password 보다 작을때  실행
+			System.out.println("실패한 값:" + f  );
+			f++;
+			
+			
+		}
+		System.out.println("답은" + f + "입니다 ");
+		
+	}
+
+}
