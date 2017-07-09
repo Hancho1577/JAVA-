@@ -1,0 +1,41 @@
+package hanch;
+
+import java.util.Scanner;
+
+public class minigame {
+
+	public static void main(String[] args) {
+		//Hi
+		
+		
+		
+		int score = 52;
+		Scanner scanner = new Scanner (System.in);
+		System.out.println("값을 입력하세요");
+		int num = scanner.nextInt();
+		
+
+		
+			
+			if(num < score)
+				System.out.println(num + "보다 큽니다");
+			else {
+				if(num > score)
+					System.out.println(num + "보다 작습니다");
+				else
+					System.out.println("정답");
+				
+								
+			
+																											
+		scanner.close();																																							
+		
+		}
+	}
+}
+
+				
+																																							
+																																				
+																																				
+
